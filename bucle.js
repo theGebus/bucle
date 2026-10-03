@@ -23,6 +23,15 @@ function pares(){
     }
 }
 
+//Funcion Impares
+
+function listaImpares(){
+    for(let i=1; i<=7; i+=2){
+        console.log(i)
+    }
+}
+
+
 //Ejecutar variables
 
 
@@ -33,7 +42,10 @@ function ejecutar(cmpnumero){
         menosNumero();
     }else if (cmpnumero==3){
         pares();
+    }else if (cmpnumero==4){
+        listaImpares();
     }
 }
+
 
 
